@@ -1,4 +1,6 @@
 # Introduction
+[![Slack](https://slack.minio.io/slack?type=svg)](https://iqiyi-falcon.slack.com)
+
 Falcon is an reimplementation of OpenSwift Swift object server and aims at solving the problem when serving lots of small files in OpenStack Swift. 
 
 It is based on 2 existing projects
@@ -128,9 +130,10 @@ curl -v -X PUT http://127.0.0.1:8080/v1/iqiyi/falcon
 curl -v -X PUT -H "Content-Type: text/plain" -d "Hello World" http://127.0.0.1:8080/v1/iqiyi/falcon/hi
 ```
 
-# Contact Us
+# Contact
 
-We can be reached at storage AT dev DOT qiyi DOT com
+* Slack: [Slack Channel](https://iqiyi-falcon.slack.com)
+* Email: storage AT dev DOT qiyi DOT com
 
 # Contributing
 Any form of contribution is welcomed. Check the [dev doc](doc/develop.md) to see how to setup a dev environment and begin to play with the code.
